@@ -18,7 +18,7 @@ const Table = () => {
       );
       setTableData(response.data);
     } catch (error) {
-      console.log("failed to fetch data");
+        alert("Failed to fetch data");
     }
   }
 
