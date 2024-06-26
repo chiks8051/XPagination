@@ -1,8 +1,11 @@
 import React from 'react';
+import Emptable from './Component/EmpTable';
 
 function App() {
   return (
-   <h1>Hi</h1>
+   <>
+   <Emptable />
+   </>
   );
 }
 
